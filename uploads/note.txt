@@ -1,0 +1,80 @@
+- Xử lý email chỉ có một file xml
+- Tách server cho note/xăng dầu
+- Xử lý pdf chưa được map
+- Xem lại API upload và xử lý xml
+- Xử lý chụp ảnh NNT lúc nhận hóa đơn hoặc xem hóa đơn
+
+- Trả ra danh sách lỗi khi kéo task từ server hddt cho anh Tâm
+
+
+
+
+
+
+
+- Cập nhật kế thừa status từ parent collection đến chilren, ví dụ khi cập nhật collection status thành archive, delete, các collection con sẽ không cập nhật status theo collection cha, 
+- Cập nhật kết thừa trạng thái public, collection cha được chuyển trạng thái public thì collection con sẽ được chuyển trạng thái tương tự
+
+- Tạo mới nội dung doc trong timeline
+- Tạo mới một nội dung doc trong version
+
+- API lấy nội dung doc khi được public
+
+- Các xử lý trong private space
+	- Tạo/Edit folder metadata trong private space
+	- Tạo/Edit doc metadata trong private space
+	- Chia sẻ bài viết cho một user_id khác (không bắt buộc phải chung unit)
+
+- Publish
+	- Tạo giao diện public cho một doc
+	- Tạo giao diện public cho một cây 
+
+
+Vấn đề: user A share cho user B, user B có quyền xóa, archive, public tài liệu của user A không?
+
+
+
+Thương thuyết có chủ đích
+
+- Nội dung duy lý
+- hình thức than thiện (phần cảm tính)3
+
+- Bỏi vì khi mà tỏ ra (gọi là không than thiện, láo, quẩy, chơi, chọi), thì đối phương cũng sẽ cố gang trở thành người như thế để thương thuyết
+
+- Vai trò luật sư: đóng đinh những gì mình nói miệng
+
+- Không nên công khai những gì mình muốn. Ví dụ đi chơi với người yêu, người yêu thích hoa hồng màu đen, nhưng đừng để lộ cho người bán hàng
+
+- Khóa chat lại những điểm mình/họ đồng ý/không đồng ý để họ không thể tự do tiến lui được
+
+- Có những người gián tiếp không tham gia vào cuộc thương thuyết, nhưng có một số quyền, phải quan tâm đến họ 
+
+- Giá trị sản phẩm phụ thuộc vào người mua cần nó như thế nào
+
+
+
+//- Sửa lại phần đọc xml của server hddt
+- Trao đổi với Phước fix lỗi app và tạo mới AComponent cho app
+	//- combobox khong hien
+	//- readOnly nhung van cho xoa
+	//- ACheckbox khong co trong list custom
+
+Bổ sung tên mien .net cho ekyb server
+// - Tạo component AImagesWithCaption cho Phước
+// Xem khả năng kết nối đến google excel
+
+
+
+
+//Báo lại cho Thư khi notify ok
+ 
+mình có lịch golive của MB như này nhe. Bắt đầu từ 23h ngày 19/9
+
+- Thêm các phần alert, show toast tại các chức năng của tài lieu
+- Đọc danh sách item trong một folder để hiển thị ra khi click vào folder
+- Cấu trúc lại thông tin lưu vào bảng user_info khi đăng nhập từ id.arito.vn
+
+
+- build lại app cho Phước xử lý phần delivery
+- tiếp tục build document
+- Xem lại hóa đơn điện tử
